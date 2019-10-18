@@ -1,9 +1,9 @@
+
 import React, { Component }
 from 'react';
 
 
-
-class App extends Component {
+class Submit extends Component {
     render() {
         return (
                 <div>
@@ -11,25 +11,19 @@ class App extends Component {
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                <div className="container"></div>
+                                    <div className="container">  </div>                                      
                                     <div className="container" id="button">
-                                    <img className="text-center rounded-circle" src={require('./img/Logo.png')} alt="Card img cap"/>
-                                        <h1>Renew Your Vehicle Registration</h1>
-                                        <h3>Enter Your Vehicle Information</h3>
-                                        <form>
-                                            <div className="form-group">
-                                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="License Plate" />
-                                            </div>
-                                            <div className="form-group">
-                                                <select className="form-control text-muted" id="exampleFormControlSelect1">
-                                                    <option>Vehicle Make</option>
-                                                    <option>Ford</option>
-                                                    <option>Honda</option>
-                                                    <option>Toyota</option>
+                                        <h1>You're Almost There!</h1>
                 
-                                                </select>
-                                            </div>                
-                                        </form>
+                                        <div className="card">
+                                            <div className="card-body">
+                                                This is some text within a card body.
+                                            </div>
+                                        </div>
+                
+                
+                
+                
                                         <button type="button" class="btn btn-primary btn-lg btn-block">Next</button>
                                     </div>
                                 </div>
@@ -53,4 +47,4 @@ class App extends Component {
 }
 ;
 
-export default App;
+export default Submit;
